@@ -1,0 +1,140 @@
+body{
+  background-color: black;
+  font-family: Helvetica, sans-serif;
+  font-size:22px;
+  color: seashell;
+  opacity: 0.9;
+  text-align: center;
+  margin:0 auto;
+}
+#nav li{
+  display:inline-block;
+  justify-content: center;
+  text-decoration: underline;
+  margin: 0px 2px;
+  font-weight: bolder;
+  
+  
+}
+#header{
+  border-bottom: 1px solid seashell;
+  height:69px;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  width: 100%;
+  z-index:1;
+  background-color: black;
+}
+  
+
+#header img{
+  height: 86%;
+  margin: 4px 7px;
+}
+#nav{
+  float:right;
+  padding:0px 10px;
+  
+}
+#nav li a{
+  color:#7E7975;
+}
+.two{
+  height:700px;
+  width: 1200px;
+  
+}
+#section1{
+  background-image: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg?_gl=1*zw2x73*_ga*MTA4Mjg2MjM4My4xNjU4MDQ0OTM4*_ga_3LRZM6TM9L*MTY2MDkyMDY2NS43NiJFqv4CZwpW5pzAumJNvGwA5hhNrzgtw);
+  height: 500px;
+  width: 1200px;
+  display: flex;
+  margin: 0px auto;
+  padding: 65px 0px;
+  flex-direction: column;
+  justify-content: center;
+  opacity:0.5;
+}
+.middle{
+  background-color: black; 
+  width: 1200px; 
+}
+.picsec{
+  max-width: 1000px;
+  padding:0px 0px;
+  margin:90px auto;
+  flex: 1 1 30px;
+}
+.images{
+  flex-grow: 2;
+  flex-shrink: 1;
+  flex-basis: 150px; 
+  display: inline-flex;
+  flex-flow: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+.mix{
+  width: 300px;
+  height: 200px;
+  margin: 10px;
+  opacity:0.5;
+}
+.text{
+  
+  text-align: center;
+}
+.img-containter{
+  display: inline-flex;
+  flex-direction: column;
+  
+  
+}
+.img-containter h4{
+  text-align: center;
+  margin:10px; 
+
+}
+.location{
+
+  height: 500px;
+  margin: -29px auto;
+  width: 1200px;
+  background-image: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg);
+  
+}
+.boxes{
+  
+  width: 300px;
+  margin: 0px 0px;
+  background-color: black;
+  height: 300px;
+  margin: -39px 10px;
+}
+
+.box-container{
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.L{
+  
+  display: flex;
+  height: 8%;
+  flex-direction: row;
+  justify-content: center;
+  padding: 43px;
+  margin: 15px;
+}
+.hiding{
+  margin: 40px 10px;
+  height: 300px;
+  text-align: center;
+  
+}
+.fonter{
+  float: left;
+  margin: 20px;
+}
